@@ -184,3 +184,31 @@ footer a {
   color: blue;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1000px) {
+  /* navbar */
+  .topnav .menu a {
+    display: none;
+  }
+  .topnav .menu {
+    float: none;
+  }
+  .topnav a.icon {
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    z-index: 999;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive .logo {
+    max-width: 250px;
+    margin: auto;
+  }
+}
